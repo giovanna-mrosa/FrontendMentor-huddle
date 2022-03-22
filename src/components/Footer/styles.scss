@@ -157,4 +157,51 @@
     margin-bottom: 30px;
     font-size: 14px;
   }
+
+  @media (max-width: 375px) {
+    flex-wrap: wrap;
+
+    .float {
+      padding: 0;
+      width: calc(100% - 8%);
+      text-align: center;
+      padding: 20px 0 28px 0;
+      margin-top: -85px;
+
+      h1 {
+        font-size: 18px;
+      }
+
+      button {
+        width: 246px;
+      }
+    }
+
+    .content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 8px;
+
+      .links {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+      }
+
+      .medias {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+
+        img {
+          width: 35px;
+        }
+      }
+    }
+
+    footer {
+      justify-content: center;
+    }
+  }
 }

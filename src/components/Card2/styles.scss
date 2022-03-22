@@ -37,4 +37,21 @@
     line-height: 26px;
     color: var(--grayish-blue);
   }
+
+  @media (max-width: 375px) {
+    flex-wrap: wrap;
+    padding: 35px 0;
+    text-align: center;
+    gap: 0;
+
+    img {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    .content {
+      width: calc(100% - 15%);
+      margin: 0 auto;
+    }
+  }
 }

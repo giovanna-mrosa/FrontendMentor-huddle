@@ -89,4 +89,54 @@
       }
     }
   }
+
+  @media (max-width: 375px) {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+
+    .topper {
+      img {
+        height: fit-content;
+        width: 110px;
+      }
+
+      button {
+        height: 30px;
+        width: 100px;
+      }
+
+      img,
+      button {
+        margin: 20px 15px;
+      }
+    }
+
+    .content {
+      flex-wrap: wrap;
+      gap: 38px;
+
+      .first-content {
+        padding: 0;
+        margin: 0 auto;
+        width: calc(100% - 15%);
+
+        h1 {
+          font-size: 28px;
+          line-height: 40px;
+        }
+
+        button {
+          width: 261px;
+        }
+      }
+
+      img {
+        margin: 0 auto;
+        width: 200px;
+      }
+    }
+  }
 }
